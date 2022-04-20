@@ -60,11 +60,11 @@ int main()
     double gx, gy, gz;
 
     //initial conditions; these are from a test using TGx
-    double ipx = -356403.951;       //x position
-    double ipy = -4076924.673;      //y position
+    double ipx = 356403.951;        //x position
+    double ipy = 4076924.673;       //y position
     double ipz = 5034509.72;        //z position
-    double ivx = -3068.498667;      //x velocity
-    double ivy = -1991.659005;      //y velocity
+    double ivx = 3068.498667;       //x velocity
+    double ivy = 1991.659005;       //y velocity
     double ivz = 582.244318;        //z velocity
     double iax = 1;                 //x acceleration
     double iay = 1;                 //y acceleration
@@ -129,10 +129,10 @@ void PSM_3DoF(double ipx, double ivx, double ipy, double ivy, double ipz, double
 
     //define variables for computeMethodPSM
     int n = 1;                              //counter variable 
-    int method = 2;                         //FSFO = 1; ASFO = 2; ASAO = 3
+    int method = 1;                         //FSFO = 1; ASFO = 2; ASAO = 3
     int choice = 1;                         //corresponds to outputData.h function
     double tol = 1;                         //tolerance; the amount of precision to solve for
-    int maxStep = 8;                        //the max timestep to go up to in the solver
+    int maxStep = 10;                        //the max timestep to go up to in the solver
     double& h = dt;                         //new variable for the timestep
     vector <int> degM(endTime * 10);        //max degree vector for storing the counter variable "ns"
     vector <double> timeVec(endTime * 10);  //time vector
