@@ -23,7 +23,17 @@
 
 \block{Introduction}
 {
-    \blindtext
+    In a ballistic missile trajectory simulation, the system of differential equations used to 
+    describe the ballistic model is a highly complex system. In particular, the six-degree of 
+    freedom model used most frequently, consists of a system of twenty-one 2nd order ordinary 
+    differential equations, which are to be solved for the ballistic missile's components of 
+    acceleration, velocity, and position at discrete time intervals. The usual method for 
+    simulating missile trajectory is the 4th Order Runge Kutta method (commonly called RK4), which 
+    is used to approximate a Taylor Series method that needs an initial condition of time and the 
+    function itself to be given.  A newer algorithm, called the Parker-Sochacki Method (PSM for 
+    short), which uses the Power Series instead of the Taylor Series, is what this report is going 
+    to be diving into, as there are certain advantages compared to the RK4 system that is typically 
+    used in most applications today.
 }
 
 \begin{columns}
