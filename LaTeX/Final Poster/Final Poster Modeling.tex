@@ -9,11 +9,14 @@
 
 \usepackage{blindtext}
 \usepackage{comment}
+\usepackage[export]{adjustbox}
+
 
 \usetheme{Default}
 \definebackgroundstyle{Default}{
 \draw[inner sep=0pt, line width=0pt, color=white, fill=white]
 (bottomleft) rectangle (topright);}
+
 
 \begin{document}
 
@@ -31,23 +34,30 @@
     simulating missile trajectory is the 4th Order Runge Kutta method (commonly called RK4), which 
     is used to approximate a Taylor Series method that needs an initial condition of time and the 
     function itself to be given.  A newer algorithm, called the Parker-Sochacki Method (PSM for 
-    short), which uses the Power Series instead of the Taylor Series, is what this report is going 
-    to be diving into, as there are certain advantages compared to the RK4 system that is typically 
+    short), which uses the Power Series instead of the Taylor Series, is what this poster is going 
+    to be showing off, as there are certain advantages compared to the RK4 system that is typically 
     used in most applications today.
 }
 
 \begin{columns}
     \column{0.4}
     \block{Assumptions}
-    {
-        
+    {           
+
     }
     
     \column{0.6}
-    \block{Equations}
+    \block{Problem Identification}
     {
         Here, \blindtext \vspace{4cm}
     }
+    \note
+    [
+        targetoffsetx=-9cm, 
+        targetoffsety=-6.5cm, 
+        width=0.5\linewidth
+    ]
+    {e-mail \texttt{welcome@overleaf.com}}
 \end{columns}
 
 \begin{columns}
@@ -55,9 +65,9 @@
     \block{Model Verification}
     {
         \begin{tikzfigure}
-            \includegraphics[width=0.2\textwidth]{images/overleaf-logo}
+            \includegraphics[width=0.2\textwidth, left]{images/PSM5 TS1 Plot.png}
         \end{tikzfigure}
-        \vspace{4cm}
+        Hello
     }
     \column{0.5}
     \block{Figures}
