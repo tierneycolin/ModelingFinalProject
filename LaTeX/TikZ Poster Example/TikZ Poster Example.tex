@@ -1,36 +1,40 @@
 \documentclass[25pt, a0paper, portrait]{tikzposter}
 \geometry{paperwidth=34in,paperheight=36in}
 
-\title{Simulating Missile Trajectories with IVODEs}
+\title{Simulating Missile Trajectory with IVODEs}
 \author{Colin Tierney}
 \date{\today}
-\institute{Merrimack College}
+\institute{Modeling and Simulation Final}
+\usebackgroundstyle{Default}
 
 \usepackage{blindtext}
 \usepackage{comment}
 
 \usetheme{Default}
+\definebackgroundstyle{Default}{
+\draw[inner sep=0pt, line width=0pt, color=white, fill=white]
+(bottomleft) rectangle (topright);}
 
 \begin{document}
 
 \maketitle
 \node[anchor=west, xshift=-2cm] at (TP@title.west) {\includegraphics[width=10cm]{images/mc-logo}};
-\node[anchor=east, xshift=2cm, yshift = -.5cm] at (TP@title.east) {\includegraphics[width=10cm]{images/qrcode}};
+\node[anchor=east, xshift=1cm, yshift=-.25cm] at (TP@title.east) {\includegraphics[width=8cm]{images/qrcode}};
 
-\block{~}
+\block{Introduction}
 {
     \blindtext
 }
 
 \begin{columns}
     \column{0.4}
-    \block{More text}
+    \block{Assumptions}
     {
-        Text and more text
+        
     }
     
     \column{0.6}
-    \block{Something else}
+    \block{Problem Identification}
     {
         Here, \blindtext \vspace{4cm}
     }
@@ -45,17 +49,27 @@
 
 \begin{columns}
     \column{0.5}
-    \block{A figure}
+    \block{Model Verification}
     {
         \begin{tikzfigure}
-            \includegraphics[width=0.4\textwidth]{images/overleaf-logo}
+            \includegraphics[width=0.2\textwidth]{images/overleaf-logo}
         \end{tikzfigure}
+        \vspace{4cm}
     }
     \column{0.5}
-    \block{Description of the figure}
+    \block{Figures}
     {
         \blindtext
     }
+    \block{Conclusion}
+    {
+        conclusion stuff
+    }
 \end{columns}
+\block{References}
+{
+    \blindtext
+}
+
 
 \end{document}

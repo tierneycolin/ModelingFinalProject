@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1650482124 "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/TikZ Poster Example/TikZ Poster Example.tex" "TikZ Poster Example.pdf" "TikZ Poster Example" 1650482126
+["pdflatex"] 1650494390 "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/TikZ Poster Example/TikZ Poster Example.tex" "TikZ Poster Example.pdf" "TikZ Poster Example" 1650494392
   "C:/Users/tiern/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1649518379 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/tiern/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1649517439 10246960 86936ed9d8ed8548ef7dc31b2fbad7a2 ""
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
@@ -165,9 +165,9 @@
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1623005690 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1626884962 123 a302f2c651a95033260db60e51527ae8 ""
-  "TikZ Poster Example.aux" 1650482126 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "TikZ Poster Example.tex" 1650482123 1280 c4d75e57dab81837b85d68c2fcbaf204 ""
-  "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/TikZ Poster Example/TikZ Poster Example.tex" 1650482123 1280 c4d75e57dab81837b85d68c2fcbaf204 ""
+  "TikZ Poster Example.aux" 1650494392 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "TikZ Poster Example.tex" 1650494389 1577 79dd9f80e8994235cb6e13be651f6b2e ""
+  "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/TikZ Poster Example/TikZ Poster Example.tex" 1650494389 1577 79dd9f80e8994235cb6e13be651f6b2e ""
   "images/mc-logo.png" 1650481311 70798 ae5c7a263b9f3d958140e01b47bc5d8b ""
   "images/overleaf-logo.png" 1649518434 122193 dc5f5fe17fe20c5c7ecaad9bed4144f5 ""
   "images/qrcode.png" 1650481839 22842 d3171ed24e24a8c0a7dc0553a96432d4 ""
