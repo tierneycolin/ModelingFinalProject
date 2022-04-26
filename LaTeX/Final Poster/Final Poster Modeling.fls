@@ -735,11 +735,6 @@ INPUT .\images\qrcode.png
 INPUT .\images\qrcode.png
 INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
 INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer17.tfm
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aett.fd
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aett.fd
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aett.fd
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aett.fd
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aett12.tfm
 INPUT .\images\PSM5 TS1 Plot.png
 INPUT .\images\PSM5 TS1 Plot.png
 INPUT images\PSM5 TS1 Plot.png
@@ -798,13 +793,6 @@ INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tf
 INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer17.vf
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aett12.vf
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
 INPUT Final Poster Modeling.aux
 INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmb10.pfb
 INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmb10.pfb
@@ -814,5 +802,3 @@ INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
-INPUT C:\Users\tiern\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
