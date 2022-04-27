@@ -3,6 +3,7 @@
 //
 // This function solves the 3DoF equations of flight for a debris object
 // in rectangular coordinates(x, y, z) with z going through the North Pole
+// Arrays are started at 1, and the 0th place in the arrays are ignored
 //
 // The ODEs
 // x' = vx;
