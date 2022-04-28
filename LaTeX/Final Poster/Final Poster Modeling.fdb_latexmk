@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1651181622 "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" "Final Poster Modeling.pdf" "Final Poster Modeling" 1651181624
+["pdflatex"] 1651183003 "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" "Final Poster Modeling.pdf" "Final Poster Modeling" 1651183006
   "C:/Users/tiern/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1651000527 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/tiern/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm2986.pk" 1651152575 39956 0c66ecbcd239f73fc28f96a9ee5ab507 ""
   "C:/Users/tiern/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1649700246 10246961 e0faca7acb9ef3edf57f849fb8a40754 ""
@@ -177,9 +177,9 @@
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1623005690 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1626884962 123 a302f2c651a95033260db60e51527ae8 ""
-  "Final Poster Modeling.aux" 1651181624 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "Final Poster Modeling.tex" 1651181621 4103 aae9641ecd3f5c28bbaa0601fba1f6dd ""
-  "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" 1651181621 4103 aae9641ecd3f5c28bbaa0601fba1f6dd ""
+  "Final Poster Modeling.aux" 1651183006 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Final Poster Modeling.tex" 1651183002 3957 e02cf9869062c0c35585b76740ec2305 ""
+  "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" 1651183002 3957 e02cf9869062c0c35585b76740ec2305 ""
   "images/PSM5 TS1 Plot.png" 1650909094 78588 b46febb128ed9acc25fb3d757f031267 ""
   "images/mc-logo.png" 1650909094 70798 ae5c7a263b9f3d958140e01b47bc5d8b ""
   "images/qrcode.png" 1650909094 22842 d3171ed24e24a8c0a7dc0553a96432d4 ""

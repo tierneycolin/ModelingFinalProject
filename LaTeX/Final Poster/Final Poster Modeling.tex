@@ -1,34 +1,36 @@
 \documentclass[25pt, a0paper, portrait]{tikzposter}
 \geometry{paperwidth=34in,paperheight=36in}
 
+% Preamble
 \title{Simulating Missile Trajectory with DEs}
 \author{Colin Tierney}
 \date{\today}
 \institute{Modeling and Simulation Final}
 \usebackgroundstyle{Default}
 
+% Packages
 \usepackage{blindtext}
 \usepackage{amsmath}
 \usepackage{amssymb}
 
+% Tikzposter settings
 \usetheme{Default}
 \definebackgroundstyle{Default}{
 \draw[inner sep=0pt, line width=0pt, fill=white]
 (bottomleft) rectangle (topright);}
 
-
+% Poster
 \begin{document}
 
 \maketitle
 \node[anchor=west, xshift=-2cm] at (TP@title.west) {\includegraphics[width=10cm]{images/mc-logo}};
 \node[anchor=east, xshift=1cm, yshift=-.25cm] at (TP@title.east) {\includegraphics[width=8cm]{images/qrcode}};
 
-
 \begin{columns}
     \column{0.6}     
     \block{Introduction}
     {
-        In a ballistic missile trajectory simulation, the system of DEs used to describe the 
+        In a ballistic missile trajectory simulation, the system of differential equations used to describe the 
         ballistic model is a highly complex system. In particular, the six-degree of freedom model
         used most frequently, solves for the missile's components of acceleration, velocity, and 
         position at discrete time intervals. The usual approach for simulation is the 4th Order 
@@ -48,30 +50,20 @@
     }
 \end{columns}
 
-
 \begin{columns}
     \column{0.55}
     \block{Problem Identification}
     {
         The Parker-Sochacki method 
-    } 
-    \begin{subcolumns}
-    \subcolumn{.5}  
-    \block{Figure 1}
+    }  
+    \block{Verification of Model}
     {
         \begin{tikzfigure}
-        \includegraphics[width=0.05\textwidth]{images/PSM5 TS1 Plot.png}
-        \includegraphics[width=0.05\textwidth]{images/PSM5 TS1 Plot.png}    
+        \includegraphics[width=0.22\textwidth]{images/PSM5 TS1 Plot.png}
+        \hspace*{1.3cm}
+        \includegraphics[width=0.22\textwidth]{images/PSM5 TS1 Plot.png}    
         \end{tikzfigure}
     }
-    \subcolumn{0.5}
-    \block{Figure 2}
-    {
-        \begin{tikzfigure}
-        \includegraphics[width=0.16\textwidth]{images/PSM5 TS1 Plot.png}
-        \end{tikzfigure}
-    }
-    \end{subcolumns}
     \block{Conclusion}
     {
         conclusion stuff
@@ -108,6 +100,5 @@
         Hello
     }
 \end{columns}
-
 
 \end{document}
