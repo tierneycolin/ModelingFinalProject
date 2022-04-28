@@ -50,12 +50,28 @@
 
 
 \begin{columns}
-    \column{0.5}
+    \column{0.55}
     \block{Problem Identification}
     {
         Here, \blindtext
-    }   
-    \column{0.5}
+    } 
+    \begin{subcolumns}
+    \subcolumn{.5}  
+    \block{Figure 1}
+    {
+        \begin{tikzfigure}
+        \includegraphics[width=0.16\textwidth]{images/PSM5 TS1 Plot.png}
+        \end{tikzfigure}
+    }
+    \subcolumn{0.5}
+    \block{Figure 2}
+    {
+        \begin{tikzfigure}
+        \includegraphics[width=0.16\textwidth]{images/PSM5 TS1 Plot.png}
+        \end{tikzfigure}
+    }
+    \end{subcolumns}
+    \column{0.45}
     \block{Cauchy Product Example Problem}
     {
         Use the power series method to solve $y^\prime = y^2$ ; $y(0) = -1$
@@ -86,31 +102,18 @@
 
 
 \begin{columns}
-    \column{0.25}
-    \block{Figure 1}
-    {
-        \begin{tikzfigure}
-        \includegraphics[width=0.15\textwidth]{images/PSM5 TS1 Plot.png}
-        \end{tikzfigure}
-    }
-    \column{0.25}
-    \block{Figure 2}
-    {
-        \begin{tikzfigure}
-        \includegraphics[width=0.15\textwidth]{images/PSM5 TS1 Plot.png}
-        \end{tikzfigure}
-    }
     \column{.5}
     \block{Conclusion}
     {
         conclusion stuff
     }
+    \column{.5}
+    \block{References}
+    {
+        \blindtext
+    }
 \end{columns}
 
-\block{References}
-{
-    \blindtext
-}
 
 
 \end{document}

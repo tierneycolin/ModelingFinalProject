@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1651112361 "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" "Final Poster Modeling.pdf" "Final Poster Modeling" 1651112363
-  "C:/Users/tiern/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1651101099 82686 2381c3433487640bf26aa76a10db7eb2 ""
+["pdflatex"] 1651113324 "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" "Final Poster Modeling.pdf" "Final Poster Modeling" 1651113326
+  "C:/Users/tiern/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1651112747 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/tiern/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm2986.pk" 1651092392 39956 2cda6c41eb7962a32844572ab00bbdef ""
   "C:/Users/tiern/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1649517439 10246960 86936ed9d8ed8548ef7dc31b2fbad7a2 ""
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
@@ -177,9 +177,9 @@
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1623005690 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1626884962 123 a302f2c651a95033260db60e51527ae8 ""
-  "Final Poster Modeling.aux" 1651112363 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "Final Poster Modeling.tex" 1651112361 4007 6b0abc3cae122bfe6355f4930e0b0956 ""
-  "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" 1651112361 4007 6b0abc3cae122bfe6355f4930e0b0956 ""
+  "Final Poster Modeling.aux" 1651113326 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Final Poster Modeling.tex" 1651113324 4091 013ed92a7aebe0980d20b4ce7a397f60 ""
+  "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" 1651113324 4091 013ed92a7aebe0980d20b4ce7a397f60 ""
   "images/PSM5 TS1 Plot.png" 1650907357 78588 b46febb128ed9acc25fb3d757f031267 ""
   "images/mc-logo.png" 1650481311 70798 ae5c7a263b9f3d958140e01b47bc5d8b ""
   "images/qrcode.png" 1650481839 22842 d3171ed24e24a8c0a7dc0553a96432d4 ""
