@@ -55,7 +55,7 @@ int main()
     int endTime = 510;
 
     //time step
-    double dt = 1;
+    double dt = 10;
 
     //declare gravity variables
     double gx, gy, gz;
