@@ -5,7 +5,7 @@
 \title{Simulating Missile Trajectory with DEs}
 \author{Colin Tierney}
 \date{\today}
-\institute{Modeling and Simulation Final}
+\institute{MTH3701 - Modeling + Simulation}
 \usebackgroundstyle{Default}
 
 % Packages
@@ -54,8 +54,24 @@
     \column{0.55}
     \block{Problem Identification}
     {
-        The Parker-Sochacki method 
-    }  
+        When solving for missile trajectory, the Parker-Sochacki method needs initial conditions for 
+        position coordinates, velocity, and acceleration.  It solves the trajectory by taking each 
+        of these components and solves them using a power series where the order of accuracy is 
+        simulated by the Cauchy product - an example of how this works is shown to the right of 
+        this box.  This accurately simulates the trajectory by using coefficients corresponding to 
+        the x, y, and z coordinates of the missile, as well as a time step that can be defined by 
+        the user. 
+
+        \vspace{.5cm}
+        The direct benefit of using PSM however, is the fact that you can take big time steps 
+        maintaining accuracy, which is not true for RK4.  In RK4, a time step of 1 is typically 
+        used, whereas in PSM you can take much bigger time steps, like 10 or even 20, depending on 
+        the order you use.  Using 5th order PSM (PSM5), for example, means that for each coefficient 
+        there are 5 extra values stored which are used to solve for the next coefficient. With PSM5 
+        and a time step of 10, the problem can be computed quicker and more efficiently than using 
+        RK4 with a time step of 1.  Two plots are shown below, displaying the accuracy of PSM5 when 
+        taking a time step of 1 and then 10.  
+    }
     \block{Verification of Model}
     {
         \begin{tikzfigure}
@@ -63,10 +79,11 @@
         \hspace*{1.3cm}
         \includegraphics[width=0.22\textwidth]{images/PSM5 TS10 Plot.png}    
         \end{tikzfigure}
-    }
-    \block{Conclusion}
-    {
-        conclusion stuff
+        \vspace{.3cm}
+        In the plots above, the one on the left is using a time step of 1 and the one on the right
+        using a time step of 10.  Labeled, is the point (651, 0), since it is near the end the of
+        the plot, where the amount of rounding error is going to be the greatest.  As can be seen, 
+        the distance, which is in meters, is only off by less than .01.
     }
     \column{0.45}
     \block{Cauchy Product Example Problem}
@@ -95,10 +112,25 @@
             \therefore c_1 = c_0c_0, c_2 = \frac{c_0c_1 + c_1c_0}{2}, c_3 = \frac{c_0c_2 + c_1c_1+ c_2c_0}{2},\dots
         \end{equation*}
     }
-    \block{References}
+    \block{Conclusion}
     {
-        Hello
+        PSM is an efficient and highly adaptive way to simulate ballistic missile trajectory.  By 
+        plugging in initial conditions of position, velocity, and acceleration, it can accurately 
+        simulate the trajectory of a missile in various situations.  Going more into the method, 
+        there are a few things that could not be talked about on this poster, such as the different 
+        gravity models that can be used in the simulations, the different ways to make parts of the 
+        algorithm run more efficiently, and even how to have the PSM algorithm select the most 
+        optimal order and time step given different constraints.  
     }
 \end{columns}
+
+\block{References}
+{
+    \vspace{.5cm}
+    All of the source code and references are located on the GitHub repository and can be accessed 
+    by scanning the QR code at the top of the poster, or going to the following URL: 
+    https://github.com/tierneycolin/ModelingFinalProject 
+    \vspace{.5cm}
+}
 
 \end{document}

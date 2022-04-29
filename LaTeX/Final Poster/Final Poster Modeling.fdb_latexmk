@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1651194249 "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" "Final Poster Modeling.pdf" "Final Poster Modeling" 1651194251
+["pdflatex"] 1651207927 "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" "Final Poster Modeling.pdf" "Final Poster Modeling" 1651207929
   "C:/Users/tiern/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1651112747 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/tiern/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm2986.pk" 1651092392 39956 2cda6c41eb7962a32844572ab00bbdef ""
   "C:/Users/tiern/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1649517439 10246960 86936ed9d8ed8548ef7dc31b2fbad7a2 ""
@@ -177,11 +177,11 @@
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1623005690 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "C:/Users/tiern/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1626884962 123 a302f2c651a95033260db60e51527ae8 ""
-  "Final Poster Modeling.aux" 1651194251 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "Final Poster Modeling.tex" 1651194248 3958 184998375efd8d510efb404e581b3ba5 ""
-  "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" 1651194248 3958 184998375efd8d510efb404e581b3ba5 ""
-  "images/PSM5 TS1 Plot.png" 1651194237 63786 3b88b8388f5286593cdd5ed98afa1974 ""
-  "images/PSM5 TS10 Plot.png" 1651194143 60336 54fa855bdfbccdbf17ff55ea2e437be3 ""
+  "Final Poster Modeling.aux" 1651207929 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Final Poster Modeling.tex" 1651207927 6616 efbefd6d28484704e61f6b3288f7441b ""
+  "c:/Users/tiern/Documents/GitHub/ModelingFinalProject/LaTeX/Final Poster/Final Poster Modeling.tex" 1651207927 6616 efbefd6d28484704e61f6b3288f7441b ""
+  "images/PSM5 TS1 Plot.png" 1651194757 66287 797963aefbc8ad2aa9073faf04b865da ""
+  "images/PSM5 TS10 Plot.png" 1651194749 67248 4a319431735039b2a003cde07a4f5cad ""
   "images/mc-logo.png" 1650481311 70798 ae5c7a263b9f3d958140e01b47bc5d8b ""
   "images/qrcode.png" 1650481839 22842 d3171ed24e24a8c0a7dc0553a96432d4 ""
   (generated)
