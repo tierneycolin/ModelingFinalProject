@@ -3,6 +3,7 @@
 //
 // This function solves the 3DoF equations of flight for a debris object
 // in rectangular coordinates(x, y, z) with z going through the North Pole
+// Arrays are started at 1, and the 0th place in the arrays are ignored
 //
 // The ODEs
 // x' = vx;
@@ -54,7 +55,7 @@ int main()
     int endTime = 510;
 
     //time step
-    double dt = 1;
+    double dt = 10;
 
     //declare gravity variables
     double gx, gy, gz;
