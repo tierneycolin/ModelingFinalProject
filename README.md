@@ -35,8 +35,7 @@ References:
 
 1. An Adaptive, Highly Accurate and Efficient, Parker-Sochacki Algorithm for Numerical Solutions to Initial 
 Value Ordinary Differential Equation Systems:
-https://www.siam.org/Portals/0/Publications/SIURO/Vol12/S01911PDF.pdf?ver=2019-08-28-100319-
-550
+https://www.siam.org/Portals/0/Publications/SIURO/Vol12/S01911PDF.pdf?ver=2019-08-28-100319-550
 
 2. Parker-Sochacki Method for Solving Systems of Ordinary Differential Equations using Graphics 
 Processors:
