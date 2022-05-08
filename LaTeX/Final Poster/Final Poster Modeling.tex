@@ -94,33 +94,34 @@
         \end{equation*}
         Plug into $y^\prime = y^2$
         \begin{equation*}
-            y^\prime = \sum\limits_{k=1}^{\infty}kc_kt^{k-1} = \left(\sum\limits_{k=0}^{\infty}c_kt^k\right) \left(\sum\limits_{k=0}^{\infty}c_kt^k\right)
+            \sum\limits_{k=1}^{\infty}kc_kt^{k-1} = \left(\sum\limits_{k=0}^{\infty}c_kt^k\right) \left(\sum\limits_{k=0}^{\infty}c_kt^k\right)
         \end{equation*}
         Rewrite $y^2$ to match the form of the cauchy product
         \begin{equation}
-            y^\prime = \sum\limits_{k=1}^{\infty}kc_kt^{k-1} = \sum\limits_{k=0}^{\infty} \underbrace{\left(\sum\limits_{j=0}^{k}c_jc_{k-j}\right)}_{\text{Cauchy product}}t^k
+            \sum\limits_{k=1}^{\infty}kc_kt^{k-1} = \sum\limits_{k=0}^{\infty} \underbrace{\left(\sum\limits_{j=0}^{k}c_jc_{k-j}\right)}_{\text{Cauchy product}}t^k
         \end{equation}
         Set $k = 1$ on both sides of the equation to solve for $c_k$
         \begin{equation*}
-            y^\prime = \sum\limits_{k=1}^{\infty}kc_kt^{k-1} = \sum\limits_{k=1}^{\infty} \left(\sum\limits_{j=0}^{k-1}c_jc_{k-j-1}\right)t^{k-1}
+            \sum\limits_{k=1}^{\infty}kc_kt^{k-1} = \sum\limits_{k=1}^{\infty} \left(\sum\limits_{j=0}^{k-1}c_jc_{k-j-1}\right)t^{k-1}
         \end{equation*}
         \begin{equation}
             c_k = \frac{\sum\limits_{j=0}^{k-1}c_jc_{k-j-1}t^{k-1}}{k}
         \end{equation}
         Solving for $c_k$, we can see each coefficient is a function of previous coefficients
         \begin{equation*}
-            \therefore c_1 = c_0c_0, c_2 = \frac{c_0c_1 + c_1c_0}{2}, c_3 = \frac{c_0c_2 + c_1c_1+ c_2c_0}{2},\dots
+            \therefore c_1 = c_0c_0, c_2 = \frac{c_0c_1 + c_1c_0}{2}, c_3 = \frac{c_0c_2 + c_1c_1+ c_2c_0}{3},\dots
         \end{equation*}
     }
     \block{Conclusion}
     {
         PSM is an efficient and highly adaptive way to simulate ballistic missile trajectory.  By 
         plugging in initial conditions of position, velocity, and acceleration, it can accurately 
-        simulate the trajectory of a missile in various situations.  Going more into the method, 
-        there are a few things that could not be talked about on this poster, such as the different 
-        gravity models that can be used in the simulations, the different ways to make parts of the 
-        algorithm run more efficiently, and even how to have the PSM algorithm select the most 
-        optimal order and time step given different constraints.  
+        simulate the trajectory of a missile in various situations. As can be seen in the graphs and 
+        data points, the model works as stated.  The advantage of being able to take larger time 
+        steps with PSM compared to RK4 means that any data stored on computers used for solving the 
+        simulations are much less, and can be computed faster, while also taking up less space. 
+        Overall, PSM can be used in a variety of different applications, as a fast and powerful 
+        algorithm.
     }
 \end{columns}
 
